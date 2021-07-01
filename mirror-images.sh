@@ -89,11 +89,12 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+# Command-line opts take priority ower env vars
 DEBUG="${DEBUG:-}"
-USER="${SYNC_USER:-${OPT_USER:-}}"
-FILE="${SYNC_INPUT_FILE:-${OPT_FILE:-}}"
-NAMESPACE="${SYNC_DST_NAMESPACE:-${OPT_NAMESPACE:-}}"
-PASSWORD="${SYNC_PASSWORD:-${OPT_PASSWORD:-}}"
+USER="${OPT_USER:-${SYNC_USER:-}}"
+FILE="${OPT_FILE:-${SYNC_INPUT_FILE:-}}"
+NAMESPACE="${OPT_NAMESPACE:-${SYNC_DST_NAMESPACE:-}}"
+PASSWORD="${OPT_PASSWORD:-${SYNC_PASSWORD:-}}"
 PREFIX="${OPT_PREFIX:-${DEF_PREFIX}}"
 
 # Test correct invocation
