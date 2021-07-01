@@ -1,0 +1,5 @@
+# This image required for testing purposes
+docker://docker.io/kiwigrid/k8s-sidecar:latest
+docker://docker.io/centos/nodejs-10-centos7:10
+docker://docker.io/centos:centos8
+docker://docker.io/centos:latest
