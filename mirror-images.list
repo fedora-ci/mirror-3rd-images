@@ -1,3 +1,5 @@
 # These images are requires for Jenkins installed from helm-chart
+# https://github.com/jenkinsci/helm-charts/blob/jenkins-2.18.2/charts/jenkins/values.yaml#L21
 docker://docker.io/jenkins/jenkins:lts
-docker://docker.io/kiwigrid/k8s-sidecar:latest
+# https://github.com/jenkinsci/helm-charts/blob/jenkins-2.18.2/charts/jenkins/values.yaml#L275
+docker://docker.io/kiwigrid/k8s-sidecar:0.1.193
