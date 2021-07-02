@@ -1,5 +1,3 @@
-# This image required for testing purposes
+# These images are requires for Jenkins installed from helm-chart
+docker://docker.io/jenkins/jenkins:lts
 docker://docker.io/kiwigrid/k8s-sidecar:latest
-docker://docker.io/centos/nodejs-10-centos7:10
-docker://docker.io/centos:centos8
-docker://docker.io/centos:latest
