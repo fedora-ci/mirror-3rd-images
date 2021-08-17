@@ -4,3 +4,4 @@ docker://docker.io/jenkins/jenkins:lts
 # https://github.com/jenkinsci/helm-charts/blob/jenkins-2.18.2/charts/jenkins/values.yaml#L275
 docker://docker.io/kiwigrid/k8s-sidecar:0.1.193
 docker://docker.io/ealen/echo-server:0.4.2
+docker://docker.io/centos/php-71-centos7:latest
