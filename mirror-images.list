@@ -6,3 +6,5 @@ docker://docker.io/kiwigrid/k8s-sidecar:0.1.193
 docker://docker.io/ealen/echo-server:0.4.2
 docker://docker.io/centos/php-71-centos7:latest
 docker://docker.io/joeelliott/cert-exporter:latest
+docker://docker.io/postfinance/vault-kubernetes-authenticator:latest
+docker://docker.io/postfinance/vault-kubernetes-synchronizer:latest
