@@ -9,5 +9,7 @@ docker://docker.io/joeelliott/cert-exporter:latest
 docker://docker.io/postfinance/vault-kubernetes-authenticator:latest
 docker://docker.io/postfinance/vault-kubernetes-synchronizer:latest
 docker://docker.io/bitnami/mongodb-exporter:0.11.2-debian-10-r393
+docker://docker.io/bitnami/mongodb-exporter:0.34.0-debian-11-r5
 docker://docker.io/bitnami/mongodb:4.4.11-debian-10-r12
 docker://docker.io/bitnami/mongodb-exporter:0.34.0-debian-11-r5
+
